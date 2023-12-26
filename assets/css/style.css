@@ -23,7 +23,7 @@
   height: 206px;
   transition-duration: 0.5s;
   box-shadow: 0px 0px 8px 2px rgba(128,128,128,1);
-  background-image: url("https://i.imgur.com/cl6v19t.jpg");
+  background-image: url("../../images/bot2.png");
   background-position: 50% 50%;
   margin: 54px auto 0;
 }
@@ -31,6 +31,13 @@
 .u-section-1 .u-text-1 {
   font-weight: 700;
   margin: 19px auto 0;
+}
+
+#pay {
+    color: #cccccc !important;        /* Lighter grey color */
+    cursor: default;       /* Change cursor to the default instead of pointer */
+    text-decoration: none;
+    pointer-events: none !important;
 }
 
 .u-section-1 .u-text-2 {
